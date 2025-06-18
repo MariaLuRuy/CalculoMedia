@@ -1,6 +1,6 @@
 /* Estilo do corpo da página */
 body {
-    background-color: rgb(221, 245, 255); /* Fundo */
+    background-color: rgb(255, 234, 234); /* Fundo */
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -47,6 +47,6 @@ button {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 700px;
+    width: 800px;
     height: auto;
 }
