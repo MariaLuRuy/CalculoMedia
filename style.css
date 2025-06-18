@@ -1,0 +1,52 @@
+/* Estilo do corpo da página */
+body {
+    background-color: rgb(221, 245, 255); /* Fundo */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    position: relative; /* Para posicionar a imagem do rodapé */
+}
+
+/* Contêiner central */
+.container {
+    max-width: 400px;
+    margin-top: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Campos de Entrada */
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Imagem no rodapé centralizada */
+.rodape-imagem {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: auto;
+}
